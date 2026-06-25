@@ -24,7 +24,7 @@
 
 ### 方式一：下载 Release
 
-1. 前往 [Releases]([https://github.com/yourusername/ScrollControl/releases](https://github.com/Shakunnn/ScrollControl/releases/tag/v1.0.0)) 页面
+1. 前往 [Releases](https://github.com/Shakunnn/ScrollControl/releases/tag/v1.0.0) 页面
 2. 下载最新版本的 `ScrollControl.app.zip`
 3. 解压后将 `ScrollControl.app` 拖入「应用程序」文件夹
 4. 首次运行时，系统会提示授予辅助功能权限
