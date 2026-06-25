@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License: MIT">
 </p>
 
-## ✨ 功能特性
+## 功能特性
 
 - **菜单栏应用**：无 Dock 图标，纯后台运行
 - **两种触发模式**：
@@ -20,7 +20,7 @@
   - 可调节滑动灵敏度
 - **权限管理**：自动检测并引导用户授予辅助功能权限
 
-## 📦 安装
+## 安装
 
 ### 方式一：下载 Release
 
@@ -39,7 +39,7 @@ open ScrollControl.xcodeproj
 
 在 Xcode 中选择「My Mac」作为目标设备，然后点击运行按钮 (⌘R)。
 
-## 🚀 使用方法
+## 使用方法
 
 ### 基本操作
 
@@ -62,7 +62,7 @@ open ScrollControl.xcodeproj
 - `⌘,`：打开偏好设置
 - `⌘Q`：退出应用
 
-## ⚙️ 设置说明
+## 设置说明
 
 点击菜单栏图标 → **偏好设置** 可配置：
 
@@ -79,19 +79,19 @@ open ScrollControl.xcodeproj
 - 查看当前音量/亮度
 - 查看事件计数和调试信息
 
-## 🔧 系统要求
+## 系统要求
 
 - macOS 14.0 (Sonoma) 或更高版本
 - 辅助功能权限（用于全局事件监听）
 
-## 📝 注意事项
+## 注意事项
 
 1. **辅助功能权限**：应用必须获得辅助功能权限才能监听全局事件
 2. **亮度控制**：仅支持内置显示器亮度调节
 3. **音量控制**：控制系统默认输出设备的音量
 4. **性能优化**：已内置节流机制（50ms），避免过度频繁的硬件调用
 
-## 🐛 故障排除
+## 故障排除
 
 ### 权限问题
 如果应用无法监听事件：
@@ -107,7 +107,7 @@ open ScrollControl.xcodeproj
 - 检查系统默认输出设备是否正确
 - 尝试重启应用
 
-## 🛠️ 技术实现
+## 技术实现
 
 - **全局事件监听**：`NSEvent.addGlobalMonitorForEvents(matching: .scrollWheel)`
 - **音量控制**：AppleScript (`set volume output volume X`)
@@ -115,7 +115,7 @@ open ScrollControl.xcodeproj
 - **权限检查**：`AXIsProcessTrustedWithOptions`
 - **节流处理**：50ms 节流 + 累积阈值
 
-## 📁 项目结构
+## 项目结构
 
 ```
 ScrollControl/
@@ -134,7 +134,7 @@ ScrollControl/
 └── README.md
 ```
 
-## 📄 许可证
+## 许可证
 
 MIT License
 
